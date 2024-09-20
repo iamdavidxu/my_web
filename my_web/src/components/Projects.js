@@ -88,7 +88,7 @@ function Projects({ expandProject, expandedProject }) {
 											platform.
 										</p>
 										<a
-											href='https://iamdavidxu.github.io/Instagram/'
+											href='https://iamdavidxu.github.io/Ins-Remake/'
 											target='_blank'
 										>
 											View Project

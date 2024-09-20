@@ -1,4 +1,5 @@
 import React from 'react';
+let audioContext = null;
 
 function Playhouse() {
 	return (
@@ -7,10 +8,8 @@ function Playhouse() {
 			<div className='playContainer'>
 				<iframe
 					src='https://my.spline.design/untitled-dbe6ca7e88ecb5951de6a619e05aa4da/'
-					frameBorder='0'
 					width='100%'
 					height='100%'
-					title='Playhouse'
 				></iframe>
 			</div>
 		</div>
