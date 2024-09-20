@@ -1,5 +1,4 @@
 import React from 'react';
-let audioContext = null;
 
 function Playhouse() {
 	return (
@@ -15,5 +14,4 @@ function Playhouse() {
 		</div>
 	);
 }
-
 export default Playhouse;
