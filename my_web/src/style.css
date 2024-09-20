@@ -1,0 +1,860 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.pageContainer {
+	width: 100%;
+	height: 100%;
+}
+
+.pageContainer {
+	height: 300%;
+}
+
+.pageFlex {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.pageHead {
+	display: flex;
+	width: 100%;
+	height: 3rem;
+}
+
+.menu {
+	display: block;
+}
+
+.spacer {
+	flex-grow: 1;
+}
+
+.glass h1,
+.glass h2 {
+	display: flex;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 450;
+	font-size: 27px;
+	background: linear-gradient(to bottom right, #3873ff, #d04145);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.glass h2 {
+	margin-top: 3%;
+}
+
+.exploreGlass p {
+	display: flex;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 450;
+	font-size: 18px;
+	letter-spacing: 0.6px;
+	background: linear-gradient(to bottom right, #3b6bda, #bf4f53);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.begin {
+	width: 100%;
+	height: 950px;
+	position: relative;
+	margin: 0;
+	background-image: url(../public/img/phone.jpg);
+	background-size: 150%;
+}
+
+.glass {
+	background: rgba(234, 247, 255, 0.6); /* Light translucent background */
+	backdrop-filter: blur(4px); /* Frosted glass effect */
+	border: 1px solid rgba(255, 255, 255, 0.5); /* Light border to enhance glass effect */
+	padding: 5%; /* Padding inside the glass container */
+	border-radius: 10px; /* Rounded corners for the glass container */
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25); /* Optional: adds a subtle shadow for depth */
+	width: 80%;
+}
+
+.beginText {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 6rem;
+}
+
+.exploreGlass {
+	display: flex;
+	background: rgba(237, 245, 255, 0.6); /* Light translucent background */
+	backdrop-filter: blur(10px); /* Frosted glass effect */
+	border: 1px solid rgba(255, 255, 255, 0.2); /* Light border to enhance glass effect */
+	padding: 3%; /* Padding inside the glass container */
+	border-radius: 10px; /* Rounded corners for the glass container */
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25); /* Optional: adds a subtle shadow for depth */
+	margin-top: 15%;
+	justify-content: center;
+	width: 45%;
+}
+
+.pageBegin {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.photo {
+	width: 16rem;
+	height: 16rem;
+	border-radius: 50%;
+	overflow: hidden;
+	object-fit: cover;
+	object-position: top left;
+}
+
+.menu {
+	position: absolute;
+	top: 2%;
+	right: 3.5%;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+.dashBoard {
+	display: flex;
+	width: 100%;
+	height: 20%;
+}
+
+.dashboardContainer {
+	display: none;
+}
+
+.profilePhoto {
+	margin-top: 20%;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 350;
+	font-size: 25px;
+}
+
+.about {
+	background-color: hsl(210, 100%, 99%);
+	padding: 1.5rem 0;
+}
+
+.about h3 {
+	margin-left: 1rem;
+	color: rgb(0, 0, 0);
+	font-size: 28px;
+}
+
+.about h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.about p {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin: 7%;
+	display: flex;
+	line-height: 27px;
+	letter-spacing: 1px;
+	color: rgb(0, 0, 0);
+	margin-top: 3%;
+}
+
+.front {
+	width: 50%;
+}
+
+.end {
+	width: 50%;
+}
+
+.showoff {
+	display: flex;
+	margin: 3%;
+}
+
+.experience h3 {
+	margin-left: 1rem;
+}
+
+.project h3 {
+	margin-left: 1rem;
+}
+
+.front img {
+	width: 60px;
+	height: 60px;
+	margin: 10px 5px;
+	object-fit: cover;
+}
+
+.css {
+	size: 20%;
+}
+
+.frontImg,
+.backImg {
+	padding-left: 13%;
+}
+
+.end img {
+	width: 60px;
+	height: 60px;
+	margin: 10px 5px;
+	object-fit: cover;
+}
+
+.experience {
+	overflow-x: auto;
+}
+
+.expContainer {
+	display: flex;
+	list-style-type: none;
+	width: max-content;
+	overflow-x: auto;
+	gap: 3%;
+	margin: 8%;
+}
+
+.expContainer img {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.expContainer li {
+	font-family: 'Manrope', sans-serif;
+	font-size: 18px;
+	display: flex;
+}
+
+.des {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	gap: 3px;
+	height: max-content;
+}
+
+.expContainer li p {
+	font-size: 15px;
+}
+
+.hl,
+.wordplay,
+.tba,
+.cssa,
+.bee {
+	display: flex;
+	flex-direction: column;
+	width: 380px;
+	background-color: #e5edff;
+	padding: 20px;
+	padding-top: 10px;
+	border-radius: 10px;
+}
+.project {
+	display: flex;
+	font-family: 'Manrope', sans-serif;
+	flex-direction: column;
+	margin-bottom: 20px;
+	margin-top: 5%;
+}
+
+.projectContainer {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10px;
+}
+
+.projectContainer h4 {
+	font-weight: 350;
+}
+
+/* UI/UX and DATA button styles */
+.ui,
+.data {
+	display: flex;
+	font-family: 'Manrope', sans-serif;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	height: 5rem;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	position: relative;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 5%;
+}
+
+/* Add custom backgrounds */
+.ui {
+	background-color: #24448f;
+}
+
+.data {
+	background-color: #4a90e2;
+}
+
+/* Hover effect */
+.ui:hover,
+.data:hover {
+	transform: scale(1.1);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Fullscreen modal styles */
+.fullscreen-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* Modal content box */
+.modal-content {
+	font-family: 'Manrope', sans-serif;
+	background-color: #fff;
+	padding-bottom: 30px;
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	height: max-content;
+	width: 70%;
+	text-align: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* Modal title (h4) */
+.modal-content h4 {
+	font-size: 20px;
+	font-weight: 350;
+	margin-bottom: 15px;
+}
+
+/* Modal project items (h5) */
+.modal-content h5 {
+	letter-spacing: 0.2px;
+	margin-bottom: 4px;
+	line-height: 12px;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 10px;
+	transition: background-color 0.3s ease-in-out;
+	border-radius: 5px;
+}
+
+.modal-content h5:hover {
+	background-color: rgba(128, 128, 128, 0.2);
+	cursor: pointer;
+}
+
+/* Project details (hidden by default) */
+.project-details {
+	display: none;
+	background-color: rgba(128, 128, 128, 0.1);
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 8px;
+	text-align: left;
+}
+
+.project-details.active {
+	display: block;
+}
+
+.project-details img {
+	max-width: 100%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.project-details h6 {
+	font-size: 18px;
+	font-weight: 450;
+	margin-bottom: 5px;
+	margin-left: 8px;
+}
+
+.project-details p {
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+	margin-left: 8px;
+}
+
+.project-details a {
+	display: inline-block;
+	padding: 10px 15px; /* Add padding to make it look like a button */
+	background-color: #92a7da; /* Set background color */
+	color: white; /* Set text color */
+	text-decoration: none; /* Remove underline */
+	border-radius: 15px; /* Make it a round button */
+	font-size: 14px; /* Adjust font size */
+	font-weight: 350; /* Make the text bold */
+	transition: background-color 0.3s ease-in-out; /* Smooth background transition */
+	margin-top: 10px;
+}
+
+.project-details a:hover {
+	background-color: #19315d; /* Darker shade on hover */
+}
+
+/* Close button */
+.close-btn {
+	padding: 10px 20px;
+	margin-top: 20px;
+	background-color: #5874b4;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+}
+
+.playContainer {
+	height: 800px;
+	width: 100%;
+	margin-top: 10%;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #bbcefb;
+}
+.close-btn:hover {
+	background-color: #19315d;
+}
+
+.morePage h3 {
+	margin-left: 1rem;
+}
+
+.playhouse h3 {
+	margin-left: 1rem;
+}
+
+.morePage img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.linkContainer {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	margin: 30px 0;
+}
+
+.linkContainer h5 {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 450;
+	font-size: 12px;
+	margin-top: 8px;
+}
+
+.linkedln,
+.resume,
+.github,
+.media {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.resume-dropdown {
+	font-family: 'Manrope', sans-serif;
+	font-size: 12px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+/* Show the dropdown on hover */
+.resume-dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.contact {
+	margin-top: 2rem;
+}
+
+.conBox {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.contact h3 {
+	margin-left: 1rem;
+}
+
+.contact-box {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	background-color: white;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	width: 400px;
+	width: 85%;
+}
+
+.contact-box h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 24px;
+	color: #6b168d;
+	font-weight: 350;
+}
+
+.contact-box .input-box {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.contact-box .input-box input,
+.contact-box .input-box textarea {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	color: #333;
+	background-color: #f0f0f0;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	transition: 0.3s;
+	resize: none;
+}
+
+.contact-box .input-box label {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	padding: 0 5px;
+	background-color: white;
+	color: #363636;
+	font-size: 16px;
+	transition: 0.3s;
+	pointer-events: none;
+}
+
+.contact-box .input-box input:focus + label,
+.contact-box .input-box input:not(:placeholder-shown) + label,
+.contact-box .input-box textarea:focus + label,
+.contact-box .input-box textarea:not(:placeholder-shown) + label {
+	top: -15px;
+	left: 5px;
+	color: #39042089;
+	font-size: 12px;
+}
+
+.contact-box .input-box textarea {
+	height: 100px;
+}
+
+.contact-box input[type='submit'] {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	outline: none;
+	background-color: #621d94;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.contact-box input[type='submit']:hover {
+	background-color: #621d94;
+}
+
+/* General styles for larger screens (e.g., desktops) */
+@media screen and (min-width: 1024px) {
+	/* Increase font sizes for readability */
+	.pageContainer {
+		font-size: 1.2rem;
+		overflow-y: auto;
+	}
+
+	.about h3,
+	.experience h3,
+	.project h3,
+	.morePage h3,
+	.playhouse h3,
+	.contact h3 {
+		margin-left: 5%;
+		font-size: 45px;
+	}
+
+	.about {
+		margin-top: 30px;
+	}
+	.glass h1 {
+		font-size: 3rem;
+	}
+
+	.glass h2 {
+		font-size: 3rem;
+		color: white;
+	}
+
+	.exploreGlass p {
+		font-size: 3rem;
+	}
+
+	.begin {
+		height: 1080px;
+		background-size: cover; /* Fill large screens with background */
+		background-image: url(../public/img/sakura.jpg);
+		overflow-y: hidden;
+	}
+
+	.glass {
+		padding: 28px;
+	}
+
+	.exploreGlass {
+		width: 70%;
+	}
+
+	.pageBegin {
+		flex-direction: row;
+		margin-bottom: 30px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.beginText {
+		width: 65%;
+		margin-left: 5%;
+		align-items: flex-start;
+		margin-top: 0;
+	}
+
+	/* Adjust glass container width for larger screens */
+	.glass {
+		width: 80%;
+	}
+
+	/* Explore glass adapts to larger screens */
+	.exploreGlass {
+		width: 40%;
+		margin-top: 10%;
+	}
+
+	.photo {
+		width: 25rem;
+		height: 25rem;
+	}
+	/* Profile photo becomes larger */
+	.profilePhoto {
+		width: 35%;
+		margin: 0;
+		margin-right: 2%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* Resizing showoff section for better display */
+	.showoff {
+		margin: 5%;
+	}
+
+	.front,
+	.end {
+		width: 45%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.frontImg,
+	.backImg {
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* Modal width adjustments */
+	.modal-content {
+		width: 50%;
+		padding: 40px;
+	}
+
+	/* Adjusting project container items */
+	.projectContainer div {
+		width: 40%; /* Wider blocks for projects */
+	}
+
+	.project,
+	.ui,
+	.data {
+		margin-top: 2%;
+		margin-bottom: 1.8%;
+	}
+
+	.resume-dropdown {
+		font-size: 14px;
+	}
+
+	.playContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin: 60px 0;
+	}
+
+	.linkContainer {
+		margin: 60px 0;
+	}
+	.dropdown-content {
+		min-width: 200px;
+	}
+
+	.showoff {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.projectContainer {
+		justify-content: space-around;
+	}
+
+	.linkContainer {
+		justify-content: space-around;
+	}
+
+	.linkedln img,
+	.resume img,
+	.github img,
+	.media img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.linkedln h5,
+	.resume h5,
+	.github h5,
+	.media h5 {
+		font-size: 25px;
+		font-weight: 350;
+	}
+
+	.expContainer {
+		gap: 5%;
+	}
+
+	.contact {
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+	.conBox {
+		margin-top: 5%;
+	}
+}
+
+/* Ultra-large screens */
+@media screen and (min-width: 1440px) {
+	.glass h1 {
+		font-size: 4rem;
+	}
+
+	.glass h2 {
+		font-size: 3rem;
+	}
+
+	.beginText {
+		margin-top: 0;
+	}
+
+	.modal-content {
+		width: 40%;
+	}
+
+	.playContainer {
+		height: 900px;
+	}
+
+	/* Resizing the Playhouse iframe for better immersion */
+	iframe {
+		width: 80%;
+		height: 90%;
+	}
+}
