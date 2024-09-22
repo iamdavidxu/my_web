@@ -31,7 +31,6 @@ function App() {
 					expandedProject={expandedProject}
 				/>
 				<Links />
-				<Playhouse />
 				<Contact />
 			</div>
 		</div>
