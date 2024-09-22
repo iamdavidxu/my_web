@@ -56,10 +56,17 @@ function Header() {
 							<h1>Hi I am David,</h1>
 							<h2>Welcome to My Page</h2>
 						</div>
-						<div className='exploreGlass'>
-							<p>Start Exploring</p>
-						</div>
+						<a
+							href='https://my.spline.design/untitled-dbe6ca7e88ecb5951de6a619e05aa4da/?v=latest'
+							target='_blank'
+							className='exploreLink'
+						>
+							<div className='exploreGlass'>
+								<p>Start Exploring</p>
+							</div>
+						</a>
 					</div>
+
 					<div className='profilePhoto'>
 						<img
 							src='./img/profile.jpg'
